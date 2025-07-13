@@ -42,7 +42,7 @@ const About = () => {
                 Hello! I'm a passionate developer who loves creating digital experiences.
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                With over 5 years of experience in web development, I specialize in creating 
+                With 7 years of experience in web development, I specialize in creating 
                 modern, responsive, and user-friendly applications. I have a strong background 
                 in both front-end and back-end technologies, allowing me to build complete 
                 solutions from concept to deployment.
