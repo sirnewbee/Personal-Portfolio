@@ -8,7 +8,7 @@ const Projects = () => {
       title: "Sectorsift",
       description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, shopping cart, and secure payment processing.",
       image: "https://drive.google.com/thumbnail?id=1w08tzYKI2vDtA-4_uq3UQ_ccP2oRZu-2&sz=w800",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
+      technologies: ["React", "Laravel", "MySQL", "Stripe", "JWT", "Gemini", "Google Places", "Google Search", "Tailwind CSS", "GCP"],
       liveUrl: "https://login.sectorsift.com/",
       githubUrl: "#",
       date: "2023"
@@ -18,17 +18,17 @@ const Projects = () => {
       title: "Felix Sales Queue",
       description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, shopping cart, and secure payment processing.",
       image: "https://drive.google.com/thumbnail?id=1y3F5S-O7AxhLV9-WgbPzAoFiZtPEbdLO&sz=w800",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
+      technologies: ["React", "Laravel", "MySQL", "Gemini", "OpenAI", "AWS"],
       liveUrl: "https://felix.sectorsift.com/",
       githubUrl: "#",
       date: "2025"
     },
     {
       id: 3,
-      title: "Zoom RPM",
+      title: "ZoomRPM",
       description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React and Firebase.",
       image: "https://drive.google.com/thumbnail?id=1kmgDQn7tGmpTzJ9RzGDX1QVuwG4GVdIc&sz=w800",
-      technologies: ["React", "Firebase", "Tailwind CSS", "Framer Motion"],
+      technologies: ["React", "Laravel", "Tailwind CSS", "MySQL", "GCP", "SQL"],
       liveUrl: "#",
       githubUrl: "#",
       date: "2022"
@@ -38,7 +38,7 @@ const Projects = () => {
       title: "ManagedPMO",
       description: "A responsive weather application with location-based forecasts, interactive maps, and historical data visualization. Integrates with multiple weather APIs.",
       image: "https://drive.google.com/thumbnail?id=19mk7Yhf83hp8yu9-M24m81XsCF2Yck4i&sz=w800",
-      technologies: ["Vue.js", "Chart.js", "OpenWeather API", "Vuex"],
+      technologies: ["Jquery", "Laravel", "MySQL", "GCP"],
       liveUrl: "#",
       githubUrl: "#",
       date: "2019"
@@ -48,7 +48,7 @@ const Projects = () => {
       title: "Jomalia Shipping Lines",
       description: "A modern, responsive portfolio website with smooth animations and optimized performance. Built with React and deployed on Netlify.",
       image: "https://drive.google.com/thumbnail?id=1TUm_eQ6LKfBPZYhcbXmtJlp7B8ZxUThv&sz=w800",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      technologies: ["React", "Laravel", "Ant Design", "MySQL", "GCP"],
       liveUrl: "#",
       githubUrl: "#",
       date: "2023"
@@ -58,7 +58,7 @@ const Projects = () => {
       title: "Catch the Dot",
       description: "A modern, responsive portfolio website with smooth animations and optimized performance. Built with React and deployed on Netlify.",
       image: "https://drive.google.com/thumbnail?id=1n6VVZkFLY78I4J3kvxiE_BpMovjK_s2t&sz=w800",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      technologies: ["React"],
       liveUrl: "https://sirnewbee.github.io/reactjs-catch-dot/",
       githubUrl: "https://github.com/sirnewbee/reactjs-catch-dot",
       date: "2021"

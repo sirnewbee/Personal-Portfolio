@@ -19,8 +19,9 @@ const Skills = () => {
       title: "Backend",
       skills: [
         { name: "PHP", level: 92 },
+        { name: "Laravel", level: 90 },
         { name: "SQL", level: 85 },
-        { name: "Express.js", level: 87 },
+        { name: "Express.js", level: 60 },
         { name: "Python", level: 50 },
       ]
     },
@@ -46,6 +47,7 @@ const Skills = () => {
         { name: "Docker", level: 70 },
         { name: "GCP", level: 80 },
         { name: "CI/CD", level: 82 },
+        { name: "AWS", level: 50 },
       ]
     }
   ];
