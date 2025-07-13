@@ -97,7 +97,11 @@ const Skills = () => {
           <div className="mt-16 text-center">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">Other Technologies</h3>
             <div className="flex flex-wrap justify-center gap-4">
-              {['Slack', 'Sass', 'Google Suites', 'Office365', 'Figma', 'Jira', 'Slack', 'VS Code', 'Postman', 'YouTrack'].map((tech, index) => (
+              {['Slack', 'Sass', 'Google Suites', 'Office365', 'Figma',
+               'Jira', 'Slack', 'VS Code', 'Postman', 'YouTrack', 'Wordpress',
+               'OctoberCMS', 'Tasty Igniter', "Google API's", "Office365 API's",
+               "Hubspot API's", "Salesforce API's", "Linkedin API's"
+              ].map((tech, index) => (
                 <span key={index} className="px-4 py-2 bg-white dark:bg-gray-900 rounded-full text-gray-700 dark:text-gray-300 font-medium shadow-md hover:shadow-lg dark:hover:shadow-2xl transition-shadow duration-200">
                   {tech}
                 </span>
