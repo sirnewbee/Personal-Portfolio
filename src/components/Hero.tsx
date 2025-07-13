@@ -2,6 +2,8 @@ import React from 'react';
 import { ChevronDown, Github, Linkedin, Mail, Download } from 'lucide-react';
 
 const Hero = () => {
+  const resumePath = '/KawinCheong-ResumeJuly2025.pdf';
+
   const scrollToAbout = () => {
     const element = document.getElementById('about');
     if (element) {
@@ -35,10 +37,13 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button className="px-8 py-3 bg-forest-700 dark:bg-forest-600 text-white rounded-lg font-semibold hover:bg-forest-800 dark:hover:bg-forest-700 transition-colors duration-200 shadow-lg hover:shadow-xl flex items-center gap-2">
+            <a className="px-8 py-3 bg-forest-700 dark:bg-forest-600 text-white rounded-lg font-semibold hover:bg-forest-800 dark:hover:bg-forest-700 transition-colors duration-200 shadow-lg hover:shadow-xl flex items-center gap-2"
+              href={resumePath}
+              download="Kawin-Cheong-Resume.pdf"
+            >
               <Download size={20} />
               Download Resume
-            </button>
+            </a>
             
             <button 
               onClick={scrollToAbout}
