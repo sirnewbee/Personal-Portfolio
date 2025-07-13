@@ -10,7 +10,7 @@ const Projects = () => {
       image: "https://drive.google.com/thumbnail?id=1w08tzYKI2vDtA-4_uq3UQ_ccP2oRZu-2&sz=w800",
       technologies: ["React", "Laravel", "MySQL", "Stripe", "JWT", "Gemini", "Google Places", "Google Search", "Tailwind CSS", "GCP"],
       liveUrl: "https://login.sectorsift.com/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/sirnewbee/Sectorsift-Frontend",
       date: "2023"
     },
     {
@@ -20,7 +20,7 @@ const Projects = () => {
       image: "https://drive.google.com/thumbnail?id=1y3F5S-O7AxhLV9-WgbPzAoFiZtPEbdLO&sz=w800",
       technologies: ["React", "Laravel", "MySQL", "Gemini", "OpenAI", "AWS"],
       liveUrl: "https://felix.sectorsift.com/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/sirnewbee/Felix-Sales-Queue",
       date: "2025"
     },
     {
@@ -30,7 +30,7 @@ const Projects = () => {
       image: "https://drive.google.com/thumbnail?id=1kmgDQn7tGmpTzJ9RzGDX1QVuwG4GVdIc&sz=w800",
       technologies: ["React", "Laravel", "Tailwind CSS", "MySQL", "GCP", "SQL"],
       liveUrl: null,
-      githubUrl: "#",
+      githubUrl: "https://github.com/sirnewbee/ZoomRPM",
       date: "2022"
     },
     {
@@ -40,7 +40,7 @@ const Projects = () => {
       image: "https://drive.google.com/thumbnail?id=19mk7Yhf83hp8yu9-M24m81XsCF2Yck4i&sz=w800",
       technologies: ["Jquery", "Laravel", "MySQL", "GCP"],
       liveUrl: "https://pmo.mandanibay.com/login-mandanibay.html",
-      githubUrl: "#",
+      githubUrl: "https://github.com/sirnewbee/ManagedPMO---Frontend",
       date: "2019"
     },
     {
@@ -50,7 +50,7 @@ const Projects = () => {
       image: "https://drive.google.com/thumbnail?id=1TUm_eQ6LKfBPZYhcbXmtJlp7B8ZxUThv&sz=w800",
       technologies: ["React", "Laravel", "Ant Design", "MySQL", "GCP"],
       liveUrl: null,
-      githubUrl: "#",
+      githubUrl: "https://github.com/sirnewbee/JomaliaShipping",
       date: "2023"
     },
     {
