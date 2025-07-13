@@ -67,9 +67,24 @@ const Contact = () => {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
+            <div className="p-8">
+              <div className="bg-gradient-to-br from-forest-700 to-forest-900 dark:from-forest-600 dark:to-forest-800 p-8 rounded-xl text-white shadow-lg">
+                <h3 className="text-2xl font-bold mb-4">Ready to start a project?</h3>
+                <p className="mb-6 text-blue-100">
+                  I'm available for freelance work and full-time opportunities. Let's discuss how we can work together.
+                </p>
+                <a
+                  href="mailto:cheong.kawin@gmail."
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-white text-forest-700 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200"
+                >
+                  <Mail size={20} />
+                  Let's Talk
+                </a>
+              </div>
+            </div>
             {/* Contact Form */}
-            <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Send Message</h3>
+            {/* <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg"> */}
+              {/* <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Send Message</h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid sm:grid-cols-2 gap-6">
                   <div>
@@ -143,8 +158,8 @@ const Contact = () => {
                   <Send size={20} />
                   Send Message
                 </button>
-              </form>
-            </div>
+              </form> */}
+            {/* </div> */}
 
             {/* Contact Info */}
             <div className="space-y-8">
@@ -182,20 +197,6 @@ const Contact = () => {
                     </a>
                   ))}
                 </div>
-              </div>
-
-              <div className="bg-gradient-to-br from-forest-700 to-forest-900 dark:from-forest-600 dark:to-forest-800 p-8 rounded-xl text-white">
-                <h3 className="text-2xl font-bold mb-4">Ready to start a project?</h3>
-                <p className="mb-6 text-blue-100">
-                  I'm available for freelance work and full-time opportunities. Let's discuss how we can work together.
-                </p>
-                <a
-                  href="mailto:your.email@example.com"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-white text-forest-700 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200"
-                >
-                  <Mail size={20} />
-                  Let's Talk
-                </a>
               </div>
             </div>
           </div>
