@@ -13,7 +13,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 via-white to-forest-50 dark:from-gray-900 dark:via-gray-900 dark:to-forest-950">
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          <div className="mb-8 pt-12">
+          <div className="mb-8 pt-[60px]">
             <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-forest-700 to-forest-900 dark:from-forest-600 dark:to-forest-800 flex items-center justify-center text-white text-4xl font-bold shadow-lg">
               KC
             </div>
