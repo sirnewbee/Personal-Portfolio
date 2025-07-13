@@ -29,7 +29,7 @@ const Projects = () => {
       description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React and Firebase.",
       image: "https://drive.google.com/thumbnail?id=1kmgDQn7tGmpTzJ9RzGDX1QVuwG4GVdIc&sz=w800",
       technologies: ["React", "Laravel", "Tailwind CSS", "MySQL", "GCP", "SQL"],
-      liveUrl: "#",
+      liveUrl: null,
       githubUrl: "#",
       date: "2022"
     },
@@ -39,7 +39,7 @@ const Projects = () => {
       description: "A responsive weather application with location-based forecasts, interactive maps, and historical data visualization. Integrates with multiple weather APIs.",
       image: "https://drive.google.com/thumbnail?id=19mk7Yhf83hp8yu9-M24m81XsCF2Yck4i&sz=w800",
       technologies: ["Jquery", "Laravel", "MySQL", "GCP"],
-      liveUrl: "#",
+      liveUrl: "https://pmo.mandanibay.com/login-mandanibay.html",
       githubUrl: "#",
       date: "2019"
     },
@@ -49,7 +49,7 @@ const Projects = () => {
       description: "A modern, responsive portfolio website with smooth animations and optimized performance. Built with React and deployed on Netlify.",
       image: "https://drive.google.com/thumbnail?id=1TUm_eQ6LKfBPZYhcbXmtJlp7B8ZxUThv&sz=w800",
       technologies: ["React", "Laravel", "Ant Design", "MySQL", "GCP"],
-      liveUrl: "#",
+      liveUrl: null,
       githubUrl: "#",
       date: "2023"
     },
@@ -107,14 +107,21 @@ const Projects = () => {
                   </div>
                   
                   <div className="flex gap-4">
-                    <a 
-                      href={project.liveUrl}
-                      target="_blank"
-                      className="flex items-center gap-2 px-4 py-2 bg-forest-700 dark:bg-forest-600 text-white rounded-lg hover:bg-forest-800 dark:hover:bg-forest-700 transition-colors duration-200 font-medium"
-                    >
-                      <ExternalLink size={16} />
-                      Live Demo
-                    </a>
+                    {
+                      project.liveUrl ?
+                      <>
+                        <a 
+                          href={project.liveUrl ? project.liveUrl : undefined}
+                          target="_blank"
+                          className="flex items-center gap-2 px-4 py-2 bg-forest-700 dark:bg-forest-600 text-white rounded-lg hover:bg-forest-800 dark:hover:bg-forest-700 transition-colors duration-200 font-medium"
+                        >
+                          <ExternalLink size={16} />
+                          Live Demo
+                        </a>
+                      </>
+                      :
+                      <></>
+                    }
                     <a 
                       href={project.githubUrl}
                       target="_blank"
