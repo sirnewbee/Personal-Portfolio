@@ -29,27 +29,27 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6 text-forest-600 dark:text-primary-400" />,
       title: "Email",
-      content: "your.email@example.com",
-      href: "mailto:your.email@example.com"
+      content: "cheong.kawin@gmail.com",
+      href: "mailto:cheong.kawin@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6 text-primary-600 dark:text-primary-400" />,
       title: "Phone",
-      content: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      content: "+63 947 347 9011",
+      href: "tel:+639473478011"
     },
     {
       icon: <MapPin className="w-6 h-6 text-forest-700 dark:text-forest-400" />,
       title: "Location",
-      content: "Your City, Country",
+      content: "Mandaue City, Philippines",
       href: "#"
     }
   ];
 
   const socialLinks = [
-    { icon: <Github size={24} />, href: "#", label: "GitHub" },
-    { icon: <Linkedin size={24} />, href: "#", label: "LinkedIn" },
-    { icon: <Twitter size={24} />, href: "#", label: "Twitter" }
+    { icon: <Github size={24} />, href: "https://github.com/sirnewbee", label: "GitHub" },
+    { icon: <Linkedin size={24} />, href: "https://www.linkedin.com/in/kawin-cheong-96bb63158/", label: "LinkedIn" },
+    // { icon: <Twitter size={24} />, href: "#", label: "Twitter" }
   ];
 
   return (
@@ -174,6 +174,7 @@ const Contact = () => {
                     <a
                       key={index}
                       href={social.href}
+                      target='_blank'
                       className="p-3 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-forest-600 dark:hover:bg-forest-600 hover:text-white transition-colors duration-200 text-gray-600 dark:text-gray-400"
                       aria-label={social.label}
                     >
